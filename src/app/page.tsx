@@ -4,6 +4,7 @@ import NavBar from "./components/navbar";
 import PromoPage from "./components/promotionalpage";
 import Promotion from "./components/promotionalpage2";
 import Offers from "./components/shopexoffer";
+import Trending from "./components/trending";
 
 export default function Home(){
   return (
@@ -14,6 +15,7 @@ export default function Home(){
       <LatestItems/>
       <Offers/>
       <Promotion/>
+      <Trending/>
     </div>
   )
 }

@@ -29,6 +29,8 @@ body {
 }
 
 .featured-card:hover,
-.featured-card2:hover {
+.featured-card2:hover,
+.featured-card3:hover {
   @apply scale-105;
+
 }
