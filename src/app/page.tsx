@@ -2,6 +2,8 @@ import Featured from "./components/featureditems";
 import LatestItems from "./components/latestitems";
 import NavBar from "./components/navbar";
 import PromoPage from "./components/promotionalpage";
+import Promotion from "./components/promotionalpage2";
+import Offers from "./components/shopexoffer";
 
 export default function Home(){
   return (
@@ -10,6 +12,8 @@ export default function Home(){
       <PromoPage/>
       <Featured/>
       <LatestItems/>
+      <Offers/>
+      <Promotion/>
     </div>
   )
 }
