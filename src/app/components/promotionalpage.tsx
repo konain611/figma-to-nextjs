@@ -23,7 +23,7 @@ export default function PromoPage() {
           <h1 className="text-[40px] md:text-[53px] leading-[1.2] font-bold text-black my-4">
             New Furniture Collection Trends in 2020
           </h1>
-          <p className="text-[#8A8FB9] text-[16px] font-bold mb-5">
+          <p className="text-[#151875] text-[16px] font-bold mb-5">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in est
             adipiscing in phasellus non in justo.
           </p>

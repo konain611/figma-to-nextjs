@@ -24,14 +24,11 @@ body {
   @apply bg-white shadow-lg rounded-lg p-4 w-48 transition-all border-2 border-transparent;
 }
 
-.featured-card:hover {
+.featured-card2 {
+  @apply bg-white shadow-lg rounded-lg p-2 w-60 transition-all border-2 border-transparent;
+}
+
+.featured-card:hover,
+.featured-card2:hover {
   @apply scale-105;
-}
-
-.bar {
-  @apply w-8 h-1 bg-pink-500 transition-colors;
-}
-
-.bar:hover {
-  @apply bg-blue-500;
 }
