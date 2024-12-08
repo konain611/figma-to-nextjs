@@ -2,11 +2,11 @@ import Image from 'next/image';
 
 export default function PromoPage() {
   return (
-    <div className="bg-[#F2F0FF] w-screen h-auto py-12 mt-[122px]">
-      <div className="max-w-[1200px] mx-auto flex flex-col md:flex-row items-center justify-between relative">
+    <div className="bg-[#F2F0FF] w-screen h-auto py-12 mt-[50px]">
+      <div className="max-w-[1200px] mx-auto flex flex-col md:flex-row justify-between relative">
         
         {/* Left Section: Hanging Lamp */}
-        <div className="top-0 left-0">
+        <div className="">
           <Image
             alt="Hanging lamp"
             height={387}

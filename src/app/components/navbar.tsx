@@ -1,7 +1,7 @@
 
 export default function NavBar() {
     return (
-      <div className="flex justify-center mt-[63px]">
+      <div className="flex justify-center mt-[50px]">
         <div className="w-[1177px] h-[40px] flex items-center justify-between">
           
           <h1 className="text-[#0D0E43] font-bold text-[34px] leading-[34px]">Hekto</h1>
