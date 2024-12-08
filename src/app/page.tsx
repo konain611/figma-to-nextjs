@@ -1,5 +1,6 @@
 import Discount from "./components/discount";
 import Featured from "./components/featureditems";
+import Footer from "./components/footer";
 import LatestBlog from "./components/latestBlog";
 import LatestItems from "./components/latestitems";
 import NavBar from "./components/navbar";
@@ -24,6 +25,7 @@ export default function Home(){
       <TopCategories/>
       <Promo/>
       <LatestBlog/>
+      <Footer/>
     </div>
   )
 }
