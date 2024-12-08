@@ -28,9 +28,14 @@ body {
   @apply bg-white shadow-lg rounded-lg p-2 w-60 transition-all border-2 border-transparent;
 }
 
+.featured-card4 {
+  @apply bg-white shadow-lg rounded-lg p-2 w-80 transition-all border-2 border-transparent;
+}
+
 .featured-card:hover,
 .featured-card2:hover,
-.featured-card3:hover {
+.featured-card3:hover,
+.featured-card4:hover, {
   @apply scale-105;
 
 }

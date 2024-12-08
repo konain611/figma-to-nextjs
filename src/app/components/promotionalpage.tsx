@@ -5,7 +5,7 @@ export default function PromoPage() {
     <div className="bg-[#F2F0FF] w-screen h-auto py-12 mt-[50px]">
       <div className="max-w-[1200px] mx-auto flex flex-col md:flex-row justify-between relative">
         
-        {/* Left Section: Hanging Lamp */}
+ 
         <div className="">
           <Image
             alt="Hanging lamp"
@@ -15,7 +15,7 @@ export default function PromoPage() {
           />
         </div>
 
-        {/* Right Section: Content */}
+
         <div className="md:w-1/2 text-center md:text-left px-6">
           <span className="block text-pink-600 text-[16px] font-bold mt-6">
             Best Furniture For Your Castle...
@@ -32,7 +32,7 @@ export default function PromoPage() {
           </button>
         </div>
 
-        {/* Pink Sofa */}
+
         <div className="md:w-1/2 flex justify-center relative">
           <Image
             alt="Pink sofa"
