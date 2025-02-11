@@ -1,9 +1,7 @@
 import Discount from "./components/discount";
 import Featured from "./components/featureditems";
-import Footer from "./components/footer";
 import LatestBlog from "./components/latestBlog";
 import LatestItems from "./components/latestitems";
-import NavBar from "./components/navbar";
 import PromoPage from "./components/promotionalpage";
 import Promotion from "./components/promotionalpage2";
 import Promo from "./components/promotionalPage3";
@@ -14,7 +12,6 @@ import Trending from "./components/trending";
 export default function Home(){
   return (
     <div>
-      <NavBar/>
       <PromoPage/>
       <Featured/>
       <LatestItems/>
@@ -25,7 +22,6 @@ export default function Home(){
       <TopCategories/>
       <Promo/>
       <LatestBlog/>
-      <Footer/>
     </div>
   )
 }
