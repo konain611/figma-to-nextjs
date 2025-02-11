@@ -1,3 +1,6 @@
+import Image from 'next/image';
+import modernSofa from '../images/modernSofa.png';
+
 export default function Discount(){
     return(
         <div className="p-8 max-w-4xl mx-auto">
@@ -53,12 +56,11 @@ export default function Discount(){
       </a>
     </div>
     <div className="md:w-1/2 flex justify-center">
-      <img
+      <Image
         alt="A modern, stylish chair with a brown backrest and grey seat, supported by a blue cross-legged base."
         className="w-64 h-64 object-contain"
-        height={400}
-        src="https://s3-alpha-sig.figma.com/img/72a8/a1fa/c3f4dfc7179464e113c3b725fc00d212?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Mb2Akdx0Ks~-gEnQ7jCY4f9dGonGb7mKLnSmdimqrx3Fg2sgLvWsr5eC2lbnKpN2dmJcx0QGLmo4SC7lokqNKmfKWCEmbTFYHyAyUMad4ozfMP-SaOYWQ9ob~oAIN4OJKOdr088FwDN5xJhuDR8OJieogRyWJWpZNJc6bw1OGKXY5KWkihXZ2zJeP1MZ9WLPpRyESdJU7gzpyQWiDLpIK-KQ~UcM6u-YywtdAqkS9N7lq11ymFgUi5SYNC1OtkFTc7b-KILlSpY~2e91bTeZirZpK~aYBjI8CKGgiqwNe8ImZSVMTrtwdXYfiA6sav5P8PU06xhYOsLAcfZYeaC90w__"
-        width={400}
+   
+        src={modernSofa}
       />
     </div>
   </div>
