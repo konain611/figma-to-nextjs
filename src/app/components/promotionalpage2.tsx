@@ -1,3 +1,5 @@
+import blueSofaImage from '../images/BLUESOFA.png';
+import Image from 'next/image';
 export default function Promotion(){
     return(
        <div>
@@ -9,12 +11,12 @@ export default function Promotion(){
   />
   <div className="mt-[50px] flex flex-col md:flex-row items-center justify-center bg-[#F2F0FF] p-6 rounded-lg shadow-lg">
     <div className="relative">
-      <img
+      <Image
         alt="Blue modern sofa with a unique design"
         className="w-full max-w-sm rounded-lg shadow-lg"
-        height={400}
-        src="https://s3-alpha-sig.figma.com/img/2de2/ab83/660b40645da77ab88d969b9136d72dae?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=DnqYfjfaRBykeCbE1riDmD565MJjz4FwhhXm1usA8dgW-IV0fX4~~ixyPi7vfikJ1yE6T7KVsusD4XStJHE7ZVgiFSlxYjbcif5vBoN5x1Oy3p-fn0rxRGPYOL7xepNaW99Frrgq1EAOw~im4MfTIXUpOEpuTeNQWeL8AXSE7eSbzO-QQv-dd41ejBkyU52G~lBDuUAZB5OzcEob8cBqR07OteMgBQmlihrdLppfWVhxzPV90BhkWQW19A3pZh95vusgAnJI9TQgoooXdLo-VwxyPslGE3CVnvPBrrLgLyBk7eZvrz4UEk-OtDZQHrLiyzdAcyFQ~YAzEt7CUoGq2g__"
+        height={250}
         width={400}
+        src={blueSofaImage}
       />
      
     </div>
