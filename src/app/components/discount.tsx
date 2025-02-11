@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import modernSofa from '../images/modernSofa.png';
+import modernSofa from '../images/modernsofa.png';
 
 export default function Discount(){
     return(
