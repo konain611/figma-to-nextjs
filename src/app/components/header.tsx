@@ -7,11 +7,11 @@ export default function Header(){
       <div className="flex items-center space-x-4">
         <div className="flex items-center space-x-1" >
           <i className="fas fa-envelope" />
-          <span>mhhasanul@gmail.com</span>
+          <span><b>konain611@gmail.com</b></span>
         </div>
         <div className="flex items-center space-x-1">
           <i className="fas fa-phone" />
-          <span>(12345)67890</span>
+          <span><b>+92 3333368339</b></span>
         </div>
       </div>
       <div className="flex items-center space-x-4">
