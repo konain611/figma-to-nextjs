@@ -3,6 +3,11 @@ import image01 from '../images/tp1.png';
 import image02 from '../images/tp2.png';
 import image03 from '../images/tp3.png';
 import image04 from '../images/LP5.png';
+import image05 from '../images/blackclock.png';
+import image06 from '../images/shelf.png';
+import image07 from '../images/chair1.png';
+import image08 from '../images/chair2.png';
+import image09 from '../images/chair3.png';
 
 export default function Trending() {
   return (
@@ -82,12 +87,12 @@ export default function Trending() {
                 <u> Shop Now</u>
               </a>
               <div className="mt-1">
-                <img
+                <Image
                   alt="Black clock"
                   className="w-full h-auto"
-                  height={30}
-                  src="/images/clock1.png"
-                  width={30}
+        
+                  src={image05}
+
                 />
               </div>
             </div>
@@ -102,12 +107,12 @@ export default function Trending() {
                 <u>View Collection</u>
               </a>
               <div className="mt-1">
-                <img
-                  alt="Black clock"
+                <Image
+                  alt="Shelf"
                   className="w-full h-auto"
-                  height={20}
-                  src="/images/clock2.png"
-                  width={20}
+
+                  src={image06}
+
                 />
               </div>
             </div>
@@ -117,11 +122,11 @@ export default function Trending() {
           <div className="featured-card4 mt-8">
             <div className="flex flex-col space-y-4">
               <div className="flex items-center">
-                <img
+                <Image
                   alt="Executive Seat chair"
                   className="w-16 h-16"
                   height={50}
-                  src="/images/chair1.png"
+                  src={image07}
                   width={50}
                 />
                 <div className="ml-4">
@@ -132,11 +137,11 @@ export default function Trending() {
                 </div>
               </div>
               <div className="flex items-center">
-                <img
+                    <Image  
                   alt="Executive Seat chair"
                   className="w-16 h-16"
                   height={50}
-                  src="/images/chair1.png"
+                  src={image08}
                   width={50}
                 />
                 <div className="ml-4">
@@ -147,11 +152,11 @@ export default function Trending() {
                 </div>
               </div>
               <div className="flex items-center">
-                <img
+                <Image
                   alt="Executive Seat chair"
                   className="w-16 h-16"
                   height={50}
-                  src="/images/chair1.png"
+                  src={image09}
                   width={50}
                 />
                 <div className="ml-4">
