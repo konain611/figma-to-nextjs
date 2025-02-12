@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+
 import errorpicture from './/images/errorpicture.jpg';
 
 export default function NotFound() {
